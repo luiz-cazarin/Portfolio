@@ -50,8 +50,8 @@ body .container section .card1 {
 }
 
 body .container section .card1 .title {
-  -webkit-transition: 3s;
-  transition: 3s;
+  -webkit-transition: 1s;
+  transition: 1s;
   font-family: Segoe UI;
   font-weight: 700;
   font-size: 96px;
