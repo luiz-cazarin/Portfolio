@@ -4,9 +4,8 @@ body {
   margin: 0;
   font-family: roboto;
   font-size: 18px;
-  background-image: url("/fundo2.jpg");
+  background: linear-gradient(to right top,#070707, rgb(28, 34, 59));
   background-size: 100%;
-  object-fit: cover;
 }
 
 
@@ -30,7 +29,7 @@ section {
   scroll-snap-align: start;
   text-align: center;
   color: whitesmoke;
-  background-color: rgba(10, 10, 10, 0.788);
+  
   
 }
 
@@ -253,12 +252,12 @@ section {
 }
 .txt h3 a:hover{
   transition: 100ms;
-  color: rgb(231, 79, 79);
+  color: rgb(79, 150, 231);
 }
 
 footer a{
   font-weight: 600;
-  color: rgb(48, 48, 48);
+  color: rgb(102, 102, 102);
   text-decoration: none;
 }
 
@@ -288,6 +287,5 @@ h3 {
 }
 
 h4{
-  color: rgb(81, 46, 175);
   font-size: 20px;
 }
